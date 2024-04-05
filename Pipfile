@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "*"
+flask = "*"
+itsdangerous = "*"
+jinja2 = "*"
+joblib = "*"
+markupsafe = "*"
+nltk = "*"
+numpy = "*"
+pandas = "*"
+python-dateutil = "*"
+pytz = "*"
+scikit-learn = "*"
+scipy = "*"
+six = "*"
+werkzeug = "*"
+gunicorn = "*"
+sklearn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
